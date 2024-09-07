@@ -1,0 +1,78 @@
+[0.029s] Invoking command in '/home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jawad/dev_ws/src/basic_mobile_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot
+[0.326s] -- The C compiler identification is GNU 11.4.0
+[0.520s] -- The CXX compiler identification is GNU 11.4.0
+[0.556s] -- Detecting C compiler ABI info
+[0.663s] -- Detecting C compiler ABI info - done
+[0.672s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.673s] -- Detecting C compile features
+[0.675s] -- Detecting C compile features - done
+[0.681s] -- Detecting CXX compiler ABI info
+[0.788s] -- Detecting CXX compiler ABI info - done
+[0.795s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.796s] -- Detecting CXX compile features
+[0.796s] -- Detecting CXX compile features - done
+[0.815s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.004s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.170s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.298s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.298s] -- Configured cppcheck include dirs: 
+[1.298s] -- Configured cppcheck exclude dirs and/or files: 
+[1.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.304s] -- Added test 'lint_cmake' to check CMake code style
+[1.307s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.315s] -- Added test 'uncrustify' to check C / C++ code style
+[1.315s] -- Configured uncrustify additional arguments: 
+[1.318s] -- Added test 'xmllint' to check XML markup files
+[1.322s] -- Configuring done
+[1.326s] -- Generating done
+[1.327s] -- Build files have been written to: /home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot
+[1.335s] Invoked command in '/home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jawad/dev_ws/src/basic_mobile_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot
+[1.335s] Invoking command in '/home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot -- -j2 -l2
+[1.385s] Invoked command in '/home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot -- -j2 -l2
+[1.422s] Invoking command in '/home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot
+[1.432s] -- Install configuration: ""
+[1.432s] -- Execute custom install script
+[1.432s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+[1.446s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+[1.458s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v2.launch.py
+[1.470s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v4.launch.py
+[1.480s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v5.launch.py
+[1.491s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/maps/smalltown_world.pgm
+[1.502s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/maps/smalltown_world.yaml
+[1.513s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
+[1.525s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
+[1.537s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+[1.550s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+[1.562s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+[1.573s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+[1.583s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl
+[1.594s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl
+[1.605s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl
+[1.615s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl
+[1.626s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl
+[1.636s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl
+[1.651s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+[1.662s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
+[1.674s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+[1.686s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf
+[1.696s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/params/nav2_params.yaml
+[1.708s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/rviz/nav2_config.rviz
+[1.718s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[1.729s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/smalltown.world
+[1.744s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[1.756s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[1.767s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[1.778s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[1.790s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[1.801s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[1.811s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[1.822s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[1.833s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[1.847s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[1.859s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[1.870s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[1.881s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[1.892s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[1.902s] -- Symlinking: /home/jawad/dev_ws/src/basic_mobile_robot/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[1.915s] Invoked command in '/home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jawad/dev_ws/src/basic_mobile_robot/build/basic_mobile_robot
